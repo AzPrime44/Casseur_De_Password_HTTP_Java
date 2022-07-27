@@ -35,7 +35,7 @@ public class BruteForce extends Hacker {
     };
 
     try {
-      //une etiquette comme en langage C pour sortir des boucles for imbriqués.
+      //une etiquette qui nous permet de sortir des boucles for imbriqués.
       outerLoop:for (String place1 : ListPwd) {
         key = place1;
         if (target.autentify(key)) {
